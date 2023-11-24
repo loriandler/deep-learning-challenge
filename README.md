@@ -18,7 +18,7 @@ Using knowledge of Pandas and scikit-learn's StandardScaler() was used to prepro
   - SPECIAL CONSIDERATIONS
   - ASK_AMT 
 
-## Step 2: Comile, Train, and Evaluate the Model
+## Step 2: Compile, Train, and Evaluate the Model
 This <span style = "color: blue">original model</span>, dropped "EIN" and "NAME" columns and determined the unique values in the remaining columns. Binning was used on the CLASSIFICATION value.  The dataframe was converted to numeric with pd.get_dummies.  The preprocessed data was split in the X and y values.  The StandardScaler() was used to fit and transform the model.
 - Cutoff value for APPLICATION_TYPE was set to 10
 - Cutoff value for CLASSIFICATION was set to 1000
